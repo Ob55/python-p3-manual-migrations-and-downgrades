@@ -8,7 +8,8 @@ from datetime import datetime
 
 from sqlalchemy import create_engine, desc
 from sqlalchemy import (CheckConstraint, UniqueConstraint,
-    Column, DateTime, Integer, String)
+    Column, DateTime, Integer
+    , String)
 
 from sqlalchemy.ext.declarative import declarative_base
 
